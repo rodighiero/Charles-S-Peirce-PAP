@@ -4,7 +4,7 @@ import { extent, polygonHull, polygonCentroid } from 'd3'
 function importAll(r) {
     return r.keys().map(r)
 }
-const images = importAll(require.context('../data/wordclouds', false, /\.(png|jpe?g|svg)$/))
+const images = importAll(require.context('../wordclouds', false, /\.(png|jpe?g|svg)$/))
 
 export default (data, clusters) => {
 
