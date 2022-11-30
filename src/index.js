@@ -25,7 +25,7 @@ import stats from './interface/stats'
 import fontXML from './assets/Lato.fnt'
 import fontPNG from './assets/Lato.png'
 
-import backgroundImage from './assets/background.png'
+import backgroundImage from './assets/background_white.png'
 
 import authors from './data/authors.json'
 import clusters from './data/clusters.json'
