@@ -27,7 +27,6 @@
         "idea"
     ],
     [
-        "pap",
         "error",
         "anthropomorphism",
         "man",
@@ -57,7 +56,6 @@
         "reprobation"
     ],
     [
-        "pap",
         "c1406",
         "term",
         "account",
@@ -92,7 +90,6 @@
     [
         "energy",
         "definition",
-        "||||idee||||",
         "brick",
         "sign",
         "brick",
@@ -114,7 +111,6 @@
         "argumentation"
     ],
     [
-        "pap",
         "criticism",
         "histology",
         "cortex",
@@ -144,7 +140,6 @@
         "analogy"
     ],
     [
-        "pap",
         "operation",
         "mind",
         "course",
@@ -194,12 +189,10 @@
         "instance",
         "hottentot",
         "hottentot",
-        "||||?||||",
         "hottentot",
         "hottentot"
     ],
     [
-        "pap",
         "date",
         "collection",
         "person",
@@ -215,7 +208,6 @@
         "collection",
         "case",
         "application",
-        "||||?||||",
         "thumb",
         "person",
         "catch",
@@ -224,7 +216,6 @@
         "fault",
         "reasoning",
         "rain",
-        "||||?||||",
         "rain",
         "people",
         "rule",
@@ -249,10 +240,8 @@
         "reasoning"
     ],
     [
-        "pap",
         "truth",
         "conclusion",
-        "||||plagiaristic||||",
         "formula",
         "descarte",
         "dark",
@@ -262,7 +251,6 @@
         "proposition",
         "reasoning",
         "place",
-        "paper",
         "reader",
         "exposition",
         "point",
@@ -293,7 +281,6 @@
         "evidence"
     ],
     [
-        "pap",
         "force",
         "object",
         "field",
@@ -392,7 +379,6 @@
     [
         "transformate",
         "vey",
-        "||||fallures||||",
         "accident",
         "feature",
         "accident",
@@ -423,7 +409,6 @@
         "proceedure",
         "proof",
         "method",
-        "||||?||||",
         "form",
         "argumentation",
         "proof",
@@ -473,7 +458,6 @@
         "demonstration",
         "reasoning",
         "demonstration",
-        "paper",
         "description",
         "mode",
         "validity"
@@ -514,9 +498,7 @@
         "deduction",
         "probability",
         "class",
-        "||||?||||",
         "abduction",
-        "||||?||||",
         "foot",
         "note",
         "point",
@@ -530,7 +512,6 @@
         "dalton",
         "chemical",
         "atom",
-        "||||?||||",
         "violet",
         "painter",
         "color"
@@ -580,7 +561,6 @@
         "representation"
     ],
     [
-        "pap",
         "graph",
         "place",
         "spot",
@@ -599,14 +579,12 @@
         "branch",
         "chemical",
         "bond",
-        "resemblance",
-        "||||?||||"
+        "resemblance"
     ],
     [
         "chemical",
         "rate",
         "veil",
-        "||||?||||",
         "constitution",
         "proteid",
         "body",
@@ -654,6 +632,7 @@
         "instant",
         "alcohol",
         "methyl",
+        "ether",
         "composition"
     ],
     [
@@ -664,7 +643,6 @@
         "picture",
         "cross",
         "example",
-        "||||suppresed||||",
         "tinge",
         "blueness",
         "shade",
@@ -690,7 +668,6 @@
         "mind"
     ],
     [
-        "pap",
         "reason",
         "matter",
         "virtue",
@@ -705,13 +682,11 @@
         "constituent",
         "number",
         "form",
-        "||||?||||",
         "place",
         "element",
         "spot"
     ],
     [
-        "pap",
         "number",
         "attachment",
         "peg",
@@ -770,6 +745,7 @@
         "end",
         "line",
         "reader",
+        "theorem",
         "demonstration",
         "truth",
         "formula",
@@ -782,7 +758,6 @@
         "point"
     ],
     [
-        "pap",
         "end",
         "observe",
         "proof",
@@ -871,7 +846,6 @@
     [
         "form",
         "feature",
-        "paper",
         "feature",
         "construction",
         "way",
@@ -1160,7 +1134,6 @@
         "method"
     ],
     [
-        "pap",
         "favour",
         "assumption",
         "distinction",
@@ -1189,7 +1162,6 @@
         "generality"
     ],
     [
-        "pap",
         "relative",
         "relation",
         "individual",
@@ -1278,7 +1250,6 @@
         "year"
     ],
     [
-        "pap",
         "inventor",
         "idiot",
         "consequence",
@@ -1288,7 +1259,6 @@
         "study",
         "mean",
         "inventor",
-        "||||?||||",
         "fool",
         "truth",
         "blunder",
@@ -1330,14 +1300,12 @@
         "distinction",
         "definition",
         "application",
-        "||||?||||",
         "philosopher",
         "bit",
         "form",
         "matter"
     ],
     [
-        "pap",
         "pair",
         "generalization",
         "family",
@@ -1385,7 +1353,8 @@
         "condition",
         "trust",
         "definition",
-        "sense"
+        "sense",
+        "hypothesis"
     ],
     [
         "proposition",
@@ -1416,7 +1385,6 @@
         "point"
     ],
     [
-        "pap",
         "extremity",
         "actualization",
         "extremity",
