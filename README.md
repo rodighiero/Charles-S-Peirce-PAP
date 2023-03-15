@@ -1,1 +1,1 @@
-# Edgelands Index
+# Pictorial Index

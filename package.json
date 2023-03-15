@@ -1,5 +1,5 @@
 {
-  "name": "edgelands-index",
+  "name": "pictorial-index",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodighiero/Edgelands.git"
+    "url": "git+https://github.com/rodighiero/Pictorial-Index"
   },
   "author": "Dario Rodighiero",
   "license": "MIT",
