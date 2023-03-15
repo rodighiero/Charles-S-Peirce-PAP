@@ -97,25 +97,23 @@ Promise.all([
 
     // Set dimensions
 
-    const extX = extent(data, d => d[0]), extY = extent(data, d => d[1])
+    // const extX = extent(data, d => d[0]), extY = extent(data, d => d[1])
 
-    console.log(extX)
-    console.log(extY)
+    // console.log(extX)
+    // console.log(extY)
 
-    const shorterDimension = window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth
-    const longerDimension = window.innerWidth < window.innerHeight ? window.innerHeight : window.innerWidth
+    // const shorterDimension = window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth
 
-    const margin = 100
+    // const margin = 100
 
-    const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, shorterDimension - margin])
-    // const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, shorterDimension - margin])
+    // const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, shorterDimension - margin])
 
-    const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
-    const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
+    // const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
+    // const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
     
     
-    data.forEach(d => { d[0] = marginLeft + scaleX(d[0]); d[1] = marginTop + scaleX(d[1]) })
-    pairs.forEach(p => { p[0] = marginLeft + scaleX(p[0]); p[1] = marginTop + scaleX(p[1]) })
+    // data.forEach(d => { d[0] = marginLeft + scaleX(d[0]); d[1] = marginTop + scaleX(d[1]) })
+    // pairs.forEach(p => { p[0] = marginLeft + scaleX(p[0]); p[1] = marginTop + scaleX(p[1]) })
 
 
 
@@ -125,8 +123,8 @@ Promise.all([
     const zoomIn = scaleLinear().domain([6, 1]).range([1, 0]) // Visible when zooming in
 
     s.viewport.on('zoomed', e => {
-        // const scale = 1
-        const scale = e.viewport.lastViewport.scaleX
+        const scale = 1
+        // const scale = e.viewport.lastViewport.scaleX
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
@@ -148,7 +146,7 @@ Promise.all([
     // keywords_distant()
     drawClusters(data, clusters)
     fps()
-    search(data)
+    // search(data)
 
     s.viewport.fit()
     s.viewport.moveCenter(window.innerWidth / 2, window.innerHeight / 2)

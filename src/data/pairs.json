@@ -1,84 +1,114 @@
 [
     [
-        662.0,
-        661.5,
-        []
-    ],
-    [
-        552.0,
-        715.5,
+        855.0,
+        647.5,
         [
-            "reasoning"
+            "anthropomorphism",
+            "man"
         ]
     ],
     [
-        910.0,
-        458.5,
-        []
-    ],
-    [
-        580.0,
-        701.5,
-        [
-            "sign"
-        ]
-    ],
-    [
-        387.0,
-        661.5,
-        [
-            "chemical",
-            "question"
-        ]
-    ],
-    [
-        387.0,
-        688.5,
-        [
-            "chemical",
-            "analogy"
-        ]
-    ],
-    [
-        993.0,
-        471.5,
-        [
-            "graph"
-        ]
-    ],
-    [
-        1020.0,
+        965.0,
         485.5,
         [
-            "relation",
-            "cousin",
-            "companion"
-        ]
-    ],
-    [
-        718.0,
-        661.5,
-        [
-            "b",
-            "equiparant",
-            "disquiparant"
+            "reasoning",
+            "sense",
+            "mind"
         ]
     ],
     [
         938.0,
         498.5,
         [
-            "line",
-            "study",
-            "way"
+            "reasoning"
         ]
     ],
     [
-        855.0,
+        718.0,
+        661.5,
+        [
+            "proposition",
+            "icon"
+        ]
+    ],
+    [
+        993.0,
+        498.5,
+        [
+            "determination",
+            "kind",
+            "mode"
+        ]
+    ],
+    [
+        1020.0,
+        485.5,
+        [
+            "validity",
+            "conclusion",
+            "deduction"
+        ]
+    ],
+    [
+        993.0,
+        471.5,
+        [
+            "reasoning",
+            "mode",
+            "fact"
+        ]
+    ],
+    [
+        387.0,
+        688.5,
+        [
+            "number",
+            "line",
+            "spot"
+        ]
+    ],
+    [
+        387.0,
+        661.5,
+        [
+            "number",
+            "thought",
+            "graph"
+        ]
+    ],
+    [
+        415.0,
+        674.5,
+        [
+            "number",
+            "spot",
+            "graph"
+        ]
+    ],
+    [
+        415.0,
         647.5,
         [
-            "continuum",
-            "extremity"
+            "piece",
+            "graph"
+        ]
+    ],
+    [
+        662.0,
+        661.5,
+        [
+            "point",
+            "continuity",
+            "line"
+        ]
+    ],
+    [
+        580.0,
+        701.5,
+        [
+            "relation",
+            "b",
+            "disquiparant"
         ]
     ]
 ]
