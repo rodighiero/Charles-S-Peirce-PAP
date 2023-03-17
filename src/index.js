@@ -95,32 +95,35 @@ Promise.all([
     s.app.stage.addChild(s.viewport)
 
 
+
     // Centering
 
     const extX = extent(data, d => d[0]), extY = extent(data, d => d[1])
-
     const marginLeft = (window.innerWidth - extX[1] - extX[0]) / 2
     const marginTop = (window.innerHeight - extY[1] - extY[0]) / 2
 
-    data.forEach(d => { d[0] += marginLeft; d[1] += marginTop})
+    data.forEach(d => { d[0] += marginLeft; d[1] += marginTop })
 
 
 
     // Transparency on zoom
 
-    const zoomOut = scaleLinear().domain([6, 1]).range([0, 1]) // Visible when zooming out
-    const zoomIn = scaleLinear().domain([6, 1]).range([1, 0]) // Visible when zooming in
+    const zoomStart = 1, zoomEnd = 2
+
+    const zoomOut = scaleLinear().domain([zoomEnd, zoomStart]) // Visible when zooming out
+    const zoomIn = scaleLinear().domain([zoomStart, zoomEnd]) // Visible when zooming in
 
     s.viewport.on('zoomed', e => {
-        const scale = 1
-        // const scale = e.viewport.lastViewport.scaleX
+
+        const scale = (typeof e.viewport.lastViewport === 'undefined') ? 1 : e.viewport.lastViewport.scaleX;
+        
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
 
-
+    
     // Font loader
 
     BitmapFont.install(fontXML, Texture.from(fontPNG))

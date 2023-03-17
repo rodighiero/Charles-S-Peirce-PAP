@@ -13,14 +13,14 @@ const splitInTwo = string => {
 
 const color = {
     on: 0xFEDD00,
-    off: 0xcFFFFFF,
+    off: 0x000000,
 }
 
 
 export default (data) => {
 
     const stage = new Graphics()
-    stage.alpha = 0
+    // stage.alpha = 0
     stage.name = 'nodes'
     s.viewport.addChild(stage)
 
@@ -45,12 +45,14 @@ export default (data) => {
         const scale = .2
         const [nA, nB] = splitInTwo(data[index][3])
 
+        // console.log(index)
+
         node.text = new BitmapText(
-            `${nA}\n${nB}`,
+            index,
             {
                 fontName: 'Lato',
-                fontSize: '9',
-                // fill: color.off,
+                fontSize: '30',
+                fill: color.off,
                 align: 'center',
             })
 
