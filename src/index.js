@@ -95,25 +95,14 @@ Promise.all([
     s.app.stage.addChild(s.viewport)
 
 
-    // Set dimensions
+    // Centering
 
-    // const extX = extent(data, d => d[0]), extY = extent(data, d => d[1])
+    const extX = extent(data, d => d[0]), extY = extent(data, d => d[1])
 
-    // console.log(extX)
-    // console.log(extY)
+    const marginLeft = (window.innerWidth - extX[1] - extX[0]) / 2
+    const marginTop = (window.innerHeight - extY[1] - extY[0]) / 2
 
-    // const shorterDimension = window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth
-
-    // const margin = 100
-
-    // const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, shorterDimension - margin])
-
-    // const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
-    // const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
-    
-    
-    // data.forEach(d => { d[0] = marginLeft + scaleX(d[0]); d[1] = marginTop + scaleX(d[1]) })
-    // pairs.forEach(p => { p[0] = marginLeft + scaleX(p[0]); p[1] = marginTop + scaleX(p[1]) })
+    data.forEach(d => { d[0] += marginLeft; d[1] += marginTop})
 
 
 

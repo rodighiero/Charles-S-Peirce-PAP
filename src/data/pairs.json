@@ -1,84 +1,50 @@
 [
     [
-        855.0,
-        647.5,
+        13.0,
+        87.5,
         [
-            "anthropomorphism",
-            "man"
+            "icon",
+            "proposition"
         ]
     ],
     [
-        965.0,
-        485.5,
+        316.0,
+        -87.5,
         [
-            "reasoning",
-            "sense",
-            "mind"
+            "way",
+            "induction"
         ]
     ],
     [
-        938.0,
-        498.5,
+        206.0,
+        -114.5,
         [
-            "reasoning"
+            "form",
+            "argumentation",
+            "method"
         ]
     ],
     [
-        718.0,
-        661.5,
+        316.0,
+        -114.5,
         [
-            "proposition",
-            "icon"
+            "class",
+            "deduction",
+            "abduction"
         ]
     ],
     [
-        993.0,
-        498.5,
-        [
-            "determination",
-            "kind",
-            "mode"
-        ]
-    ],
-    [
-        1020.0,
-        485.5,
+        288.0,
+        -101.5,
         [
             "validity",
-            "conclusion",
-            "deduction"
+            "kind",
+            "demonstration"
         ]
     ],
     [
-        993.0,
-        471.5,
-        [
-            "reasoning",
-            "mode",
-            "fact"
-        ]
-    ],
-    [
-        387.0,
-        688.5,
-        [
-            "number",
-            "line",
-            "spot"
-        ]
-    ],
-    [
-        387.0,
-        661.5,
-        [
-            "number",
-            "thought",
-            "graph"
-        ]
-    ],
-    [
-        415.0,
-        674.5,
+        -316.0,
+        114.5,
         [
             "number",
             "spot",
@@ -86,25 +52,35 @@
         ]
     ],
     [
-        415.0,
-        647.5,
+        -316.0,
+        87.5,
         [
-            "piece",
+            "number",
+            "thought",
             "graph"
         ]
     ],
     [
-        662.0,
-        661.5,
+        -288.0,
+        128.5,
         [
-            "point",
-            "continuity",
-            "line"
+            "number",
+            "graph",
+            "spot"
         ]
     ],
     [
-        580.0,
-        701.5,
+        -41.0,
+        87.5,
+        [
+            "point",
+            "continuity",
+            "room"
+        ]
+    ],
+    [
+        -123.0,
+        128.5,
         [
             "relation",
             "b",
