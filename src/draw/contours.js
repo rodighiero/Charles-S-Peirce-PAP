@@ -5,7 +5,7 @@ const color = 0x000000
 const contourWidth = .8
 const cellSize = 1
 const bandwidth = 40
-const thresholds = 15
+const thresholds = 10
 
 export default (data, width, height) => {
     
