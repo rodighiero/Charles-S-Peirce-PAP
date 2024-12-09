@@ -27,7 +27,6 @@ import fontPNG from './assets/Lato.png'
 
 import backgroundImage from './assets/background_white.png'
 
-import authors from './data/authors.json'
 import clusters from './data/clusters.json'
 import embedding from './data/embedding.json'
 import lemmas from './data/lemmas.json'
@@ -45,7 +44,6 @@ window.s = {
 
 Promise.all([
     json(embedding),
-    json(authors),
     json(lemmas),
     json(pairs),
     json(clusters),
@@ -54,13 +52,13 @@ Promise.all([
     image(backgroundImage),
 
 
-]).then(([embedding, authors, lemmas, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, lemmas, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set data
 
     let data = embedding.reduce((array, value, i) => {
-        array[i] = [...embedding[i], lemmas[i].length, authors[i]]
+        array[i] = [...embedding[i], lemmas[i].length]
         return array
     }, [])
 

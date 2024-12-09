@@ -43,7 +43,7 @@ export default (data) => {
         // Label
 
         const scale = .2
-        const [nA, nB] = splitInTwo(data[index][3])
+        const [nA, nB] = splitInTwo(data[index][2])
 
         // console.log(index)
 
