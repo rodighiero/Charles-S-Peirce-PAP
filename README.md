@@ -38,7 +38,7 @@ This initiative aligns with broader efforts to digitize and classify cultural he
    npm start
    ```
 
-Access the application at `http://localhost:3000`.
+Access the application at `http://localhost:8080/`.
 
 ## Methodology
 
